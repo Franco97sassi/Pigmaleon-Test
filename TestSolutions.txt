@@ -1,0 +1,45 @@
+Soluciones con ambos tipos de lógica 
+
+Ejercicio1
+
+Ejemplo de ejecución
+Input: nums = [1, 4, 3, 9], requiredSum = 8
+
+Iteraciones:
+1+4=5
+1+4=5 (No es 8)
+1+3=4
+1+3=4 (No es 8)
+1+9=10
+1+9=10 (No es 8)
+4+3=7
+4+3=7 (No es 8)
+4+9=13
+4+9=13 (No es 8)
+3+9=12
+3+9=12 (No es 8)
+Retorna: false.
+
+
+
+
+
+
+
+
+
+
+//Ejercicio2
+Input: nums = [1, 2, 4, 4], requiredSum = 8
+
+Iteraciones:
+1- num=1, complemento=8-1=7, el conjunto esta vacío → agrega 1 al conjunto.
+Conjunto:{1}
+
+2- num=2, complemento=8-2=6, el conjunto es {1} → agrega 2 al conjunto.
+Conjunto:{1,2}
+
+3- num=4, complemento=8-4=4, el conjunto es {1,2} → agrega 4 al conjunto.
+Conjunto:{1,2,4}
+
+4- num=4, complemento=8-4=4, el complemento 4 ya está en el conjunto.
