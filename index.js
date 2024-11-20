@@ -2,8 +2,11 @@
 //Utilizo bucles anidados para probar todas las combinaciones posibles de dos números en un arreglo
 
 function SumBruteForce(nums, requiredSum) {
-  //Primer bucle: recorre cada número en el arreglo desde el inicio hasta el penúltimo elemento
+
+  //Primer bucle: recorre cada número en el arreglo desde el inicio hasta el último elemento
   for (let i = 0; i < nums.length; i++) {
+
+ //Segundo bucle: comienza desde el siguiente elemento después de i. Así, aseguramos que no estamos sumando el mismo número dos veces
     for (let j = i + 1; j < nums.length; j++) {
         if (nums[i] + nums[j] === requiredSum) {
             return true;
@@ -22,8 +25,12 @@ const requiredSum = 8;
 console.log(SumBruteForce(nums1, requiredSum)); // Resultado: false
 console.log(SumBruteForce(nums2, requiredSum)); // Resultado: true
 
+
+
+
 //Ejercicio2
-//Utilizo un conjunto (Set) para almacenar los números visitados y para buscar complemento en tiempo constante
+//Utilizo un conjunto (Set) para almacenar los números visitados, calcular su complemento y luego verificar si se encuentra en el conjunto
+
 function SumOptimized(nums, requiredSum) {
   //Creo un conjunto vacío para almacenar números que he encontrado
   const seenNumbers = new Set();

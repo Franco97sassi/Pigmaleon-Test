@@ -4,7 +4,7 @@ Descripción del Proyecto
 Este programa resuelve la problemática de determinar si un número específico (requiredSum) puede formarse utilizando la suma de dos elementos de un array dado. Se incluyen dos enfoques:
 
 - Brute Force: Enfoque directo, menos eficiente pero fácil de implementar.
-- Optimizado: Utiliza un conjunto (Set) para reducir la complejidad temporal .
+- Optimizado: Utiliza un conjunto (Set) para reducir la complejidad temporal.
 
 Lenguaje y Herramientas Utilizadas
 Lenguaje:
