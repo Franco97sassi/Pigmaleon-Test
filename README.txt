@@ -6,6 +6,10 @@ Este programa resuelve la problemática de determinar si un número específico 
 - Brute Force: Enfoque directo, menos eficiente pero fácil de implementar.
 - Optimizado: Utiliza un conjunto (Set) para reducir la complejidad temporal.
 
+Instrucciones para ejecutar el proyecto
+- Clonar Repositorio: git clone https://github.com/Franco97sassi/Pigmaleon-Test.git
+- Ejecutar el programa: node index.js
+
 Lenguaje y Herramientas Utilizadas
 Lenguaje:
 - JavaScript (ES6)
